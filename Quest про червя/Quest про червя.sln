@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Quest про червя", "Quest про червя\Quest про червя.csproj", "{F7D58B47-A845-4643-B295-6AEF8287E4FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7D58B47-A845-4643-B295-6AEF8287E4FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7D58B47-A845-4643-B295-6AEF8287E4FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7D58B47-A845-4643-B295-6AEF8287E4FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7D58B47-A845-4643-B295-6AEF8287E4FB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {54C964A8-8E20-41E5-8437-DF15101F14A9}
+	EndGlobalSection
+EndGlobal
