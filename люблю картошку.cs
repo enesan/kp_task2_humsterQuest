@@ -10,52 +10,52 @@ Random rand = new Random();
 void print()
 {
     Console.WriteLine();
-    Console.WriteLine($"Длина твоей норы: {length}");
-    Console.WriteLine($"Твоё здоровье: {health}");
-    Console.WriteLine($"Твоё уважение: {respect}");
-    Console.WriteLine($"Твой вес: {weight}");
+    Console.WriteLine($"Р”Р»РёРЅР° С‚РІРѕРµР№ РЅРѕСЂС‹: {length}");
+    Console.WriteLine($"РўРІРѕС‘ Р·РґРѕСЂРѕРІСЊРµ: {health}");
+    Console.WriteLine($"РўРІРѕС‘ СѓРІР°Р¶РµРЅРёРµ: {respect}");
+    Console.WriteLine($"РўРІРѕР№ РІРµСЃ: {weight}");
     Console.WriteLine();
 }
 
-Console.WriteLine("Добро пожаловать! Представь, что однажды утром ты проснулся и стал тараканом. Вот твои характеристики:");
+Console.WriteLine("Р”РѕР±СЂРѕ РїРѕР¶Р°Р»РѕРІР°С‚СЊ! РџСЂРµРґСЃС‚Р°РІСЊ, С‡С‚Рѕ РѕРґРЅР°Р¶РґС‹ СѓС‚СЂРѕРј С‚С‹ РїСЂРѕСЃРЅСѓР»СЃСЏ Рё СЃС‚Р°Р» С‚Р°СЂР°РєР°РЅРѕРј. Р’РѕС‚ С‚РІРѕРё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё:");
 print();
-Console.WriteLine("Ты еще не свой среди тараканов, так что придется тебе набрать уважение (100). Не дай упасть другим показателям!");
+Console.WriteLine("РўС‹ РµС‰Рµ РЅРµ СЃРІРѕР№ СЃСЂРµРґРё С‚Р°СЂР°РєР°РЅРѕРІ, С‚Р°Рє С‡С‚Рѕ РїСЂРёРґРµС‚СЃСЏ С‚РµР±Рµ РЅР°Р±СЂР°С‚СЊ СѓРІР°Р¶РµРЅРёРµ (100). РќРµ РґР°Р№ СѓРїР°СЃС‚СЊ РґСЂСѓРіРёРј РїРѕРєР°Р·Р°С‚РµР»СЏРј!");
 Console.WriteLine();
 
 while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
 {
     while (day_or_night == 1)
     {
-        Console.WriteLine("Наступил день. Напоминаю, твои характеристики на данный момент:");
+        Console.WriteLine("РќР°СЃС‚СѓРїРёР» РґРµРЅСЊ. РќР°РїРѕРјРёРЅР°СЋ, С‚РІРѕРё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё РЅР° РґР°РЅРЅС‹Р№ РјРѕРјРµРЅС‚:");
         print();
-        Console.WriteLine("Чем же ты займешься сегодня? Выбери цифру.");
+        Console.WriteLine("Р§РµРј Р¶Рµ С‚С‹ Р·Р°Р№РјРµС€СЊСЃСЏ СЃРµРіРѕРґРЅСЏ? Р’С‹Р±РµСЂРё С†РёС„СЂСѓ.");
         Console.WriteLine();
-        Console.WriteLine("1: копать нору");
-        Console.WriteLine("2: поесть травку");
-        Console.WriteLine("3: пойти драться");
-        Console.WriteLine("4: поспать весь день");
+        Console.WriteLine("1: РєРѕРїР°С‚СЊ РЅРѕСЂСѓ");
+        Console.WriteLine("2: РїРѕРµСЃС‚СЊ С‚СЂР°РІРєСѓ");
+        Console.WriteLine("3: РїРѕР№С‚Рё РґСЂР°С‚СЊСЃСЏ");
+        Console.WriteLine("4: РїРѕСЃРїР°С‚СЊ РІРµСЃСЊ РґРµРЅСЊ");
         Console.WriteLine();
         int change = Convert.ToInt32(Console.ReadLine());
         switch (change)
         {
             case 1:
                 Console.WriteLine();
-                Console.WriteLine("Как ты хочешь копать?");
-                Console.WriteLine("1: интенсивно");
-                Console.WriteLine("2. лениво");
+                Console.WriteLine("РљР°Рє С‚С‹ С…РѕС‡РµС€СЊ РєРѕРїР°С‚СЊ?");
+                Console.WriteLine("1: РёРЅС‚РµРЅСЃРёРІРЅРѕ");
+                Console.WriteLine("2. Р»РµРЅРёРІРѕ");
                 Console.WriteLine();
                 int change_kopat = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine();
                 switch (change_kopat)
                 {
                     case 1:
-                        Console.WriteLine("А ты хорош! Твои характеристики потерпели небольшие изменения:");
+                        Console.WriteLine("Рђ С‚С‹ С…РѕСЂРѕС€! РўРІРѕРё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё РїРѕС‚РµСЂРїРµР»Рё РЅРµР±РѕР»СЊС€РёРµ РёР·РјРµРЅРµРЅРёСЏ:");
                         length += 5;
                         health -= 30;
                         print();
                         break;
                     case 2:
-                        Console.WriteLine("Не думал, что ты лентяй! Твои характеристики чуть изменились:");
+                        Console.WriteLine("РќРµ РґСѓРјР°Р», С‡С‚Рѕ С‚С‹ Р»РµРЅС‚СЏР№! РўРІРѕРё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‡СѓС‚СЊ РёР·РјРµРЅРёР»РёСЃСЊ:");
                         length += 2;
                         health -= 10;
                         print();
@@ -63,17 +63,17 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
                 }
                 break;
             case 2:
-                Console.WriteLine("Выбирай, какую травку ты будешь кушать:");
+                Console.WriteLine("Р’С‹Р±РёСЂР°Р№, РєР°РєСѓСЋ С‚СЂР°РІРєСѓ С‚С‹ Р±СѓРґРµС€СЊ РєСѓС€Р°С‚СЊ:");
                 Console.WriteLine();
-                Console.WriteLine("1: жухлую");
-                Console.WriteLine("2: зеленую");
+                Console.WriteLine("1: Р¶СѓС…Р»СѓСЋ");
+                Console.WriteLine("2: Р·РµР»РµРЅСѓСЋ");
                 Console.WriteLine();
                 int change_grass = Convert.ToInt32(Console.ReadLine());
                 Console.WriteLine();
                 switch (change_grass)
                 {
                     case 1:
-                        Console.WriteLine("Трава, конечно, отстой. Но что поделать... Твои характеристики:");
+                        Console.WriteLine("РўСЂР°РІР°, РєРѕРЅРµС‡РЅРѕ, РѕС‚СЃС‚РѕР№. РќРѕ С‡С‚Рѕ РїРѕРґРµР»Р°С‚СЊ... РўРІРѕРё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё:");
                         health += 10;
                         weight += 15;
                         print();
@@ -81,13 +81,13 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
                     case 2:
                         if (respect < 30)
                         {
-                            Console.WriteLine("Чел... Лохов на лужайки не пускают, тебя за это побили. Твои характеристики:");
+                            Console.WriteLine("Р§РµР»... Р›РѕС…РѕРІ РЅР° Р»СѓР¶Р°Р№РєРё РЅРµ РїСѓСЃРєР°СЋС‚, С‚РµР±СЏ Р·Р° СЌС‚Рѕ РїРѕР±РёР»Рё. РўРІРѕРё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё:");
                             health -= 30;
                             print();
                         }
                         if (respect >= 30)
                         {
-                            Console.WriteLine("Лучшая лужайка угощает! Твои характеристики:");
+                            Console.WriteLine("Р›СѓС‡С€Р°СЏ Р»СѓР¶Р°Р№РєР° СѓРіРѕС‰Р°РµС‚! РўРІРѕРё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё:");
                             health += 30;
                             weight += 30;
                             print();
@@ -96,11 +96,11 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
                 }
                 break;
             case 3:
-                Console.WriteLine("С кем хочешь подраться?");
-                Console.WriteLine();
-                Console.WriteLine("1: с лохом");
-                Console.WriteLine("2: со среднячком");
-                Console.WriteLine("3: с крутым тараканом на районе");
+                Console.WriteLine("РЎ РєРµРј С…РѕС‡РµС€СЊ РїРѕРґСЂР°С‚СЊСЃСЏ?");
+                Console.WriteLine(); 
+                Console.WriteLine("1: СЃ Р»РѕС…РѕРј");
+                Console.WriteLine("2: СЃРѕ СЃСЂРµРґРЅСЏС‡РєРѕРј");
+                Console.WriteLine("3: СЃ РєСЂСѓС‚С‹Рј С‚Р°СЂР°РєР°РЅРѕРј РЅР° СЂР°Р№РѕРЅРµ");
                 Console.WriteLine();
                 int change_enemy = Convert.ToInt32(Console.ReadLine());
                 switch (change_enemy)
@@ -111,21 +111,21 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
                         {
                             if (weight > 30)
                             {
-                                Console.WriteLine("Слабых бить не очень, но ты выиграл, твои показатели изменились...");
+                                Console.WriteLine("РЎР»Р°Р±С‹С… Р±РёС‚СЊ РЅРµ РѕС‡РµРЅСЊ, РЅРѕ С‚С‹ РІС‹РёРіСЂР°Р», С‚РІРѕРё РїРѕРєР°Р·Р°С‚РµР»Рё РёР·РјРµРЅРёР»РёСЃСЊ...");
                                 health -= 15;
                                 respect += 5;
                                 print();
                             }
                             if (weight == 30)
                             {
-                                Console.WriteLine("Неплохо))) Твои показатели изменились!");
+                                Console.WriteLine("РќРµРїР»РѕС…Рѕ))) РўРІРѕРё РїРѕРєР°Р·Р°С‚РµР»Рё РёР·РјРµРЅРёР»РёСЃСЊ!");
                                 health -= 35;
                                 respect += 20;
                                 print();
                             }
                             if (weight < 30)
                             {
-                                Console.WriteLine("Да ты мощь!!! Твои показатели поменялись!");
+                                Console.WriteLine("Р”Р° С‚С‹ РјРѕС‰СЊ!!! РўРІРѕРё РїРѕРєР°Р·Р°С‚РµР»Рё РїРѕРјРµРЅСЏР»РёСЃСЊ!");
                                 health -= 70;
                                 respect += 40;
                                 print();
@@ -135,20 +135,20 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
                         {
                             if (weight > 30)
                             {
-                                Console.WriteLine("Ну ты и лох... Проиграть такому лошку...");
+                                Console.WriteLine("РќСѓ С‚С‹ Рё Р»РѕС…... РџСЂРѕРёРіСЂР°С‚СЊ С‚Р°РєРѕРјСѓ Р»РѕС€РєСѓ...");
                                 health -= 15;
                                 respect -= 15;
                                 print();
                             }
                             if (weight == 30)
                             {
-                                Console.WriteLine("Не повезло... Но ты не расстраивайся с;");
+                                Console.WriteLine("РќРµ РїРѕРІРµР·Р»Рѕ... РќРѕ С‚С‹ РЅРµ СЂР°СЃСЃС‚СЂР°РёРІР°Р№СЃСЏ СЃ;");
                                 health -= 35;
                                 print();
                             }
                             if (weight < 30)
                             {
-                                Console.WriteLine("Попытка - не пытка! Хотя, кажется, не в твоем случае... Ты ведь чуть не помер");
+                                Console.WriteLine("РџРѕРїС‹С‚РєР° - РЅРµ РїС‹С‚РєР°! РҐРѕС‚СЏ, РєР°Р¶РµС‚СЃСЏ, РЅРµ РІ С‚РІРѕРµРј СЃР»СѓС‡Р°Рµ... РўС‹ РІРµРґСЊ С‡СѓС‚СЊ РЅРµ РїРѕРјРµСЂ");
                                 health -= 70;
                                 respect += 10;
                             }
@@ -160,21 +160,21 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
                         {
                             if (weight > 50)
                             {
-                                Console.WriteLine("Молодец, твои показатели изменились! Но не пора ли сразиться с кем-то более сильным?");
+                                Console.WriteLine("РњРѕР»РѕРґРµС†, С‚РІРѕРё РїРѕРєР°Р·Р°С‚РµР»Рё РёР·РјРµРЅРёР»РёСЃСЊ! РќРѕ РЅРµ РїРѕСЂР° Р»Рё СЃСЂР°Р·РёС‚СЊСЃСЏ СЃ РєРµРј-С‚Рѕ Р±РѕР»РµРµ СЃРёР»СЊРЅС‹Рј?");
                                 health -= 15;
                                 respect += 5;
                                 print();
                             }
                             if (weight == 50)
                             {
-                                Console.WriteLine("Неплохо))) Твои показатели изменились!");
+                                Console.WriteLine("РќРµРїР»РѕС…Рѕ))) РўРІРѕРё РїРѕРєР°Р·Р°С‚РµР»Рё РёР·РјРµРЅРёР»РёСЃСЊ!");
                                 health -= 35;
                                 respect += 20;
                                 print();
                             }
                             if (weight < 50)
                             {
-                                Console.WriteLine("Скоро пойдешь на рейд к крутому таракану на районе!!! Твои показатели поменялись!");
+                                Console.WriteLine("РЎРєРѕСЂРѕ РїРѕР№РґРµС€СЊ РЅР° СЂРµР№Рґ Рє РєСЂСѓС‚РѕРјСѓ С‚Р°СЂР°РєР°РЅСѓ РЅР° СЂР°Р№РѕРЅРµ!!! РўРІРѕРё РїРѕРєР°Р·Р°С‚РµР»Рё РїРѕРјРµРЅСЏР»РёСЃСЊ!");
                                 health -= 70;
                                 respect += 40;
                                 print();
@@ -184,20 +184,20 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
                         {
                             if (weight > 50)
                             {
-                                Console.WriteLine("Не так грустно проиграть противнику, который уже бывалый. В следущий раз у тебя точно получится!");
+                                Console.WriteLine("РќРµ С‚Р°Рє РіСЂСѓСЃС‚РЅРѕ РїСЂРѕРёРіСЂР°С‚СЊ РїСЂРѕС‚РёРІРЅРёРєСѓ, РєРѕС‚РѕСЂС‹Р№ СѓР¶Рµ Р±С‹РІР°Р»С‹Р№. Р’ СЃР»РµРґСѓС‰РёР№ СЂР°Р· Сѓ С‚РµР±СЏ С‚РѕС‡РЅРѕ РїРѕР»СѓС‡РёС‚СЃСЏ!");
                                 health -= 15;
                                 respect -= 15;
                                 print();
                             }
                             if (weight == 50)
                             {
-                                Console.WriteLine("Не повезло... Но ты не расстраивайся с;");
+                                Console.WriteLine("РќРµ РїРѕРІРµР·Р»Рѕ... РќРѕ С‚С‹ РЅРµ СЂР°СЃСЃС‚СЂР°РёРІР°Р№СЃСЏ СЃ;");
                                 health -= 35;
                                 print();
                             }
                             if (weight < 50)
                             {
-                                Console.WriteLine("Попытка - не пытка! Хотя, кажется, не в твоем случае... Ты ведь чуть не помер");
+                                Console.WriteLine("РџРѕРїС‹С‚РєР° - РЅРµ РїС‹С‚РєР°! РҐРѕС‚СЏ, РєР°Р¶РµС‚СЃСЏ, РЅРµ РІ С‚РІРѕРµРј СЃР»СѓС‡Р°Рµ... РўС‹ РІРµРґСЊ С‡СѓС‚СЊ РЅРµ РїРѕРјРµСЂ");
                                 health -= 70;
                                 respect += 10;
                             }
@@ -209,21 +209,21 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
                         {
                             if (weight > 70)
                             {
-                                Console.WriteLine("Ничего себе ты крут! Да ты собираешь поклонников))");
+                                Console.WriteLine("РќРёС‡РµРіРѕ СЃРµР±Рµ С‚С‹ РєСЂСѓС‚! Р”Р° С‚С‹ СЃРѕР±РёСЂР°РµС€СЊ РїРѕРєР»РѕРЅРЅРёРєРѕРІ))");
                                 health -= 15;
                                 respect += 25;
                                 print();
                             }
                             if (weight == 70)
                             {
-                                Console.WriteLine("Неплохо))) Ты победил противника равного себе! Твои показатели изменились!");
+                                Console.WriteLine("РќРµРїР»РѕС…Рѕ))) РўС‹ РїРѕР±РµРґРёР» РїСЂРѕС‚РёРІРЅРёРєР° СЂР°РІРЅРѕРіРѕ СЃРµР±Рµ! РўРІРѕРё РїРѕРєР°Р·Р°С‚РµР»Рё РёР·РјРµРЅРёР»РёСЃСЊ!");
                                 health -= 35;
                                 respect += 35;
                                 print();
                             }
                             if (weight < 70)
                             {
-                                Console.WriteLine("ЧЕЕ да ты машина, а не таракан!!!");
+                                Console.WriteLine("Р§Р•Р• РґР° С‚С‹ РјР°С€РёРЅР°, Р° РЅРµ С‚Р°СЂР°РєР°РЅ!!!");
                                 health -= 70;
                                 respect += 50;
                                 print();
@@ -233,20 +233,20 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
                         {
                             if (weight > 70)
                             {
-                                Console.WriteLine("Не так грустно проиграть противнику, который уже бывалый. В следущий раз у тебя точно получится!");
+                                Console.WriteLine("РќРµ С‚Р°Рє РіСЂСѓСЃС‚РЅРѕ РїСЂРѕРёРіСЂР°С‚СЊ РїСЂРѕС‚РёРІРЅРёРєСѓ, РєРѕС‚РѕСЂС‹Р№ СѓР¶Рµ Р±С‹РІР°Р»С‹Р№. Р’ СЃР»РµРґСѓС‰РёР№ СЂР°Р· Сѓ С‚РµР±СЏ С‚РѕС‡РЅРѕ РїРѕР»СѓС‡РёС‚СЃСЏ!");
                                 health -= 15;
                                 respect -= 15;
                                 print();
                             }
                             if (weight == 70)
                             {
-                                Console.WriteLine("Не повезло... Но ты не расстраивайся с;");
+                                Console.WriteLine("РќРµ РїРѕРІРµР·Р»Рѕ... РќРѕ С‚С‹ РЅРµ СЂР°СЃСЃС‚СЂР°РёРІР°Р№СЃСЏ СЃ;");
                                 health -= 35;
                                 print();
                             }
                             if (weight < 70)
                             {
-                                Console.WriteLine("Попытка - не пытка! Хотя, кажется, не в твоем случае... Ты ведь чуть не помер");
+                                Console.WriteLine("РџРѕРїС‹С‚РєР° - РЅРµ РїС‹С‚РєР°! РҐРѕС‚СЏ, РєР°Р¶РµС‚СЃСЏ, РЅРµ РІ С‚РІРѕРµРј СЃР»СѓС‡Р°Рµ... РўС‹ РІРµРґСЊ С‡СѓС‚СЊ РЅРµ РїРѕРјРµСЂ");
                                 health -= 70;
                                 respect += 10;
                             }
@@ -255,7 +255,7 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
                 }
                 break;
             case 4:
-                Console.WriteLine("Дрыхнешь посреди дня...");
+                Console.WriteLine("Р”СЂС‹С…РЅРµС€СЊ РїРѕСЃСЂРµРґРё РґРЅСЏ...");
                 Console.WriteLine();
                 length -= 2;
                 health += 10;
@@ -268,9 +268,9 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
     }
     while (day_or_night == 0)
     {
-        Console.WriteLine("Белая ночь опустилась как облако...");
+        Console.WriteLine("Р‘РµР»Р°СЏ РЅРѕС‡СЊ РѕРїСѓСЃС‚РёР»Р°СЃСЊ РєР°Рє РѕР±Р»Р°РєРѕ...");
         Console.WriteLine();
-        Console.WriteLine("Твои характеристики чуть изменились!");
+        Console.WriteLine("РўРІРѕРё С…Р°СЂР°РєС‚РµСЂРёСЃС‚РёРєРё С‡СѓС‚СЊ РёР·РјРµРЅРёР»РёСЃСЊ!");
         length -= 2;
         health += 10;
         respect -= 2;
@@ -282,9 +282,9 @@ while ((length > 0) & (health > 0) & (respect < 100) & (weight > 0))
 
 if ((length <= 0) | (health <= 0) | (weight <= 0))
 {
-    Console.WriteLine("All my friends are toxic... Ты проиграл :с");
+    Console.WriteLine("All my friends are toxic... РўС‹ РїСЂРѕРёРіСЂР°Р» :СЃ");
 }
 if (respect >= 100)
 {
-    Console.WriteLine("Ура, победа!!! Поздравляю!!! Самый уважаемый таракан на районе)))");
+    Console.WriteLine("РЈСЂР°, РїРѕР±РµРґР°!!! РџРѕР·РґСЂР°РІР»СЏСЋ!!! РЎР°РјС‹Р№ СѓРІР°Р¶Р°РµРјС‹Р№ С‚Р°СЂР°РєР°РЅ РЅР° СЂР°Р№РѕРЅРµ)))");
 }
