@@ -1,0 +1,15 @@
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\bin\Debug\net6.0\dom2.exe
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\bin\Debug\net6.0\dom2.deps.json
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\bin\Debug\net6.0\dom2.runtimeconfig.json
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\bin\Debug\net6.0\dom2.dll
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\bin\Debug\net6.0\dom2.pdb
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\obj\Debug\net6.0\dom2.csproj.AssemblyReference.cache
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\obj\Debug\net6.0\dom2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\obj\Debug\net6.0\dom2.AssemblyInfoInputs.cache
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\obj\Debug\net6.0\dom2.AssemblyInfo.cs
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\obj\Debug\net6.0\dom2.csproj.CoreCompileInputs.cache
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\obj\Debug\net6.0\dom2.dll
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\obj\Debug\net6.0\refint\dom2.dll
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\obj\Debug\net6.0\dom2.pdb
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\obj\Debug\net6.0\dom2.genruntimeconfig.cache
+C:\Users\Gamer\Desktop\учеба\кп\dom2\dom2\obj\Debug\net6.0\ref\dom2.dll
