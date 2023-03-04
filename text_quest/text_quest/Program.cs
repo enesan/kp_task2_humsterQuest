@@ -4,6 +4,7 @@
     {
         static void Main(string[] args)
         {
+            //выполнил: Спирин Владислав - 1074
             Random rnd = new Random();
             bool game_is_work = false, fight_flag = false;
             int burrow_length = 10, health = 100, respect = 20, weight = 30, enemy_weight = 0;
