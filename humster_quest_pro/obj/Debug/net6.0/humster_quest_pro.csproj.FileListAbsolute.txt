@@ -1,0 +1,15 @@
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\bin\Debug\net6.0\humster_quest_pro.exe
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\bin\Debug\net6.0\humster_quest_pro.deps.json
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\bin\Debug\net6.0\humster_quest_pro.runtimeconfig.json
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\bin\Debug\net6.0\humster_quest_pro.dll
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\bin\Debug\net6.0\humster_quest_pro.pdb
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\obj\Debug\net6.0\humster_quest_pro.csproj.AssemblyReference.cache
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\obj\Debug\net6.0\humster_quest_pro.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\obj\Debug\net6.0\humster_quest_pro.AssemblyInfoInputs.cache
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\obj\Debug\net6.0\humster_quest_pro.AssemblyInfo.cs
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\obj\Debug\net6.0\humster_quest_pro.csproj.CoreCompileInputs.cache
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\obj\Debug\net6.0\humster_quest_pro.dll
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\obj\Debug\net6.0\refint\humster_quest_pro.dll
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\obj\Debug\net6.0\humster_quest_pro.pdb
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\obj\Debug\net6.0\humster_quest_pro.genruntimeconfig.cache
+C:\Users\sasha\source\repos\humster_quest_pro\humster_quest_pro\obj\Debug\net6.0\ref\humster_quest_pro.dll
