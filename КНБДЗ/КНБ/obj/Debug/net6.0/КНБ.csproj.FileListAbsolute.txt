@@ -1,0 +1,15 @@
+D:\Для программирования\repos\КНБ\КНБ\bin\Debug\net6.0\КНБ.exe
+D:\Для программирования\repos\КНБ\КНБ\bin\Debug\net6.0\КНБ.deps.json
+D:\Для программирования\repos\КНБ\КНБ\bin\Debug\net6.0\КНБ.runtimeconfig.json
+D:\Для программирования\repos\КНБ\КНБ\bin\Debug\net6.0\КНБ.dll
+D:\Для программирования\repos\КНБ\КНБ\bin\Debug\net6.0\КНБ.pdb
+D:\Для программирования\repos\КНБ\КНБ\obj\Debug\net6.0\КНБ.csproj.AssemblyReference.cache
+D:\Для программирования\repos\КНБ\КНБ\obj\Debug\net6.0\КНБ.GeneratedMSBuildEditorConfig.editorconfig
+D:\Для программирования\repos\КНБ\КНБ\obj\Debug\net6.0\КНБ.AssemblyInfoInputs.cache
+D:\Для программирования\repos\КНБ\КНБ\obj\Debug\net6.0\КНБ.AssemblyInfo.cs
+D:\Для программирования\repos\КНБ\КНБ\obj\Debug\net6.0\КНБ.csproj.CoreCompileInputs.cache
+D:\Для программирования\repos\КНБ\КНБ\obj\Debug\net6.0\КНБ.dll
+D:\Для программирования\repos\КНБ\КНБ\obj\Debug\net6.0\refint\КНБ.dll
+D:\Для программирования\repos\КНБ\КНБ\obj\Debug\net6.0\КНБ.pdb
+D:\Для программирования\repos\КНБ\КНБ\obj\Debug\net6.0\КНБ.genruntimeconfig.cache
+D:\Для программирования\repos\КНБ\КНБ\obj\Debug\net6.0\ref\КНБ.dll
